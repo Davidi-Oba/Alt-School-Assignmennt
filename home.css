@@ -1,0 +1,27 @@
+body {
+    background: #ccc;
+}
+
+.main-ctn {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.img-ctn img {
+    width: 500px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+ .main-ctn {
+    flex-direction: column;
+ }   
+
+ .img-ctn img {
+    width: 200px;
+ }
+}
