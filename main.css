@@ -133,6 +133,7 @@ td {
   width: 100%;
   padding: 40px;
   border-radius: 4px;
+  overflow: hidden;
   overflow-y: auto;
   /* min-height: 90vh; */
   /* height: 100vh; */
