@@ -213,5 +213,83 @@ input[type=submit] {
   color: rgb(255, 255, 255);
 }
 
+.primary {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .signup-ctn {
+    padding: 30px;
+  }
+
+  .form-ctn {
+    padding: 15px 15px 90px;
+  }
+
+  .learn-text-ctn {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .input1 {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .learn-ctn {
+    display: none;
+  }
+
+  .form-ctn {
+    width: auto;
+  }
+
+  .signup-ctn {
+    padding: 15px 15px 90px;
+    width: 100%;
+  }
+
+  .pri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .primary {
+    display: flex;
+    color: black;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signin {
+    text-align: center;
+  }
+
+  .next {
+    font-size: 14.4px;
+  }
+  
+}
+
+@media screen and (max-width: 592px) {
+  .input-form {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .signup-ctn {
+    padding: 0;
+  }
+
+  .signup-text {
+    font-size: 20.8px;
+  }
+
+  .form-ctn {
+    margin-top: 20px;
+  }
 }
